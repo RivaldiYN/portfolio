@@ -7,7 +7,7 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-16 md:flex-row md:space-x-4 md:text-left">
         <div className="md:mt-2 md:w-1/2">
           <Image
             src="/foto_pribadi.jpg"
@@ -18,13 +18,13 @@ const HeroSection = () => {
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Riv<span className="font-semibold text-teal-600">aldi</span>!</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Riv<span className="font-semibold text-[#014e60]">aldi</span>!</h1>
           <p className="text-lg mt-4 mb-6 md:text-2xl">
           Web development especially Backend Developer🧑🏻‍💻
           </p>
           <Link
             to="projects"
-            className="cursor-pointer text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="cursor-pointer text-neutral-100 font-semibold px-6 py-3  bg-[#3f7a8d] rounded shadow hover:bg-[#014e60]"
             activeClass="active"
             spy={true}
             smooth={true}
@@ -41,7 +41,7 @@ const HeroSection = () => {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-100}
+          offset={-65}
           duration={500}
         >
           <HiArrowDown size={35} className="animate-bounce" />

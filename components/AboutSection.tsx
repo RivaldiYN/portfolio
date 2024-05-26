@@ -39,18 +39,17 @@ const AboutSection = () => {
         </div>
         <div className="md:w-1/2">
           <div className="flex flex-col items-center justify-center">
-      <h1 className="text-2xl font-bold mb-4">Experience Organizational</h1>
-      <p className="text-gray-500 mb-4">
-        Here are some of the organizations I have worked with.
-      </p>
-      <div className="flex flex-row">
-        <p className="bg-gray-200 px-4 py-2 mr-2 mt-2">X</p>
-        <p className="bg-gray-200 px-4 py-2 mr-2 mt-2">Y</p>
-        <p className="bg-gray-200 px-4 py-2 mr-2 mt-2">Z</p>
-      </div>
-    </div>
+          <h1 className="text-2xl font-bold mb-4">Experience Organizational</h1>
+          <p className="text-gray-500 mb-4">
+            Here are some of the organizations I have worked with.
+          </p>
+          <div className="flex flex-row md:w-11/12">
+            <p className="bg-gray-200 px-4 py-2 mr-2 mt-2 rounded">Staff of Technopreneur Division</p>
+            <p className="bg-gray-200 px-4 py-2 mr-2 mt-2 rounded">Staff of Information Technology at Ministry</p>
+        </div>
         </div>
       </div>
+    </div>
       <div className="md:w-1/2 md:text-left flex flex-col items-center justify-center">
         <h1 className="text-2xl font-bold mb-6">My Skills</h1>
         <div className="flex flex-wrap flex-row justify-center">

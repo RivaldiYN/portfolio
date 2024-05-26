@@ -1,8 +1,11 @@
 "use client"
 import "../styles/globals.css"
+import { Libre_Franklin } from "@next/font/google"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
 import { ThemeProvider } from "next-themes"
+
+const librefranklin = Libre_Franklin({ subsets: ["latin"] });
 
 export default function RootLayout({
   children,
@@ -16,7 +19,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="dark:bg-stone-900">
+      <body className={librefranklin.className}>
         <ThemeProvider enableSystem={true} attribute="class">
           <Navbar />
           {children}
