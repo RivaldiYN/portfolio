@@ -14,7 +14,8 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Figma" }
+  { skill: "Figma" },
+  { skill: "Golang"}
 ]
 
 const AboutSection = () => {
@@ -44,8 +45,8 @@ const AboutSection = () => {
             Here are some of the organizations I have worked with.
           </p>
           <div className="flex flex-row md:w-11/12">
-            <p className="bg-gray-200 px-4 py-2 mr-2 mt-2 rounded">Staff of Technopreneur Division</p>
-            <p className="bg-gray-200 px-4 py-2 mr-2 mt-2 rounded">Staff of Information Technology at Ministry</p>
+            <p className="bg-gray-400 px-4 py-2 mr-2 mt-2 rounded">Staff of Technopreneur Division</p>
+            <p className="bg-gray-400 px-4 py-2 mr-2 mt-2 rounded">Staff of Information Technology at Ministry</p>
         </div>
         </div>
       </div>
